@@ -1,4 +1,9 @@
+package presenter;
 import java.util.List;
+
+import model.Employee;
+import model.FileManager;
+import view.ConsoleUI;
 
 public class EmployeeManager {
     private List<Employee> employeeList;
